@@ -29,7 +29,6 @@
 // }
 // getData();
 
-
 // const sendData = () => {
 //     makeRequest('POST', 'https://jsonplaceholder.typicode.com/posts',{
 //         title: 'foo',
@@ -38,7 +37,6 @@
 //     })
 // }
 // sendData();
-
 
 // const updateData = () => {
 //     makeRequest('PUT', 'https://jsonplaceholder.typicode.com/posts/1',{
@@ -49,7 +47,6 @@
 //     })
 // }
 // updateData();
-
 
 // const updateSingalData = () => {
 //     makeRequest('PATCH', 'https://jsonplaceholder.typicode.com/posts/1',{
@@ -65,8 +62,6 @@
 // }
 // deletData();
 
-
-
 // //02 calling api from javascript | fetch api:
 // fetch("https://jsonplaceholder.typicode.com/posts",{
 //     method : "POST",
@@ -79,7 +74,6 @@
 //         userId: 1,
 //     })
 // })
-
 
 // fetch("https://jsonplaceholder.typicode.com/posts/1",{
 //     method : "PUT",
@@ -94,7 +88,6 @@
 //     })
 // })
 
-
 // fetch("https://jsonplaceholder.typicode.com/posts/1",{
 //     method : "PATCH",
 //     headers: {
@@ -105,11 +98,9 @@
 //     })
 // })
 
-
 // fetch("https://jsonplaceholder.typicode.com/posts/1",{
 //     method : "DELETE",
 // })
-
 
 // .then((res) => {
 //     if(!res.ok){
@@ -121,8 +112,6 @@
 // .then((res)=> console.log(res))
 // .catch((err) => console.log(err))
 
-
-
 // //03 async await api calling function:
 // const makeRequest = async (url,config) => {
 //     const res = await fetch(url,config);
@@ -133,8 +122,6 @@
 //     const data = await res.json();
 //     return data;
 // };
-
-
 
 // const sendData = () => {
 //     makeRequest('https://jsonplaceholder.typicode.com/posts', {
@@ -152,8 +139,6 @@
 //     .then((err) => console.log(err))
 // }
 // sendData();
-
-
 
 // const updateSingalData = () => {
 //     makeRequest('https://jsonplaceholder.typicode.com/posts', {
@@ -173,8 +158,6 @@
 // }
 // updateSingalData();
 
-
-
 // const petchData = () => {
 //     makeRequest('https://jsonplaceholder.typicode.com/posts', {
 //         method: 'PETCH',
@@ -190,8 +173,6 @@
 // }
 // petchData();
 
-
-
 // const deleteData = () => {
 //     makeRequest('https://jsonplaceholder.typicode.com/posts', {
 //         method: 'DELETE',
@@ -201,15 +182,11 @@
 // }
 // deleteData();
 
-
-
-
 //04 calling api from javascript | axios api:
 // axios
 //     .get('https://jsonplaceholder.typicode.com/posts')
 //     .then((res) => console.log(res.data))
 //     .catch((err) => console.log(err));
-
 
 // axios
 //     .post('https://jsonplaceholder.typicode.com/posts', {
@@ -222,8 +199,6 @@
 //     })
 //     .then((res) => console.log(res.data))
 //     .catch((err) => console.log(err));
-
-
 
 // axios
 //     .put('https://jsonplaceholder.typicode.com/posts/1', {
@@ -238,7 +213,6 @@
 //     .then((res) => console.log(res.data))
 //     .catch((err) => console.log(err));
 
-
 // axios
 //     .petch('https://jsonplaceholder.typicode.com/posts/1', {
 //         method: 'PETCH',
@@ -249,15 +223,12 @@
 //     .then((res) => console.log(res.data))
 //     .catch((err) => console.log(err));
 
-
 // axios
 //     .delete('https://jsonplaceholder.typicode.com/posts/1', {
 //         method: 'DELETE',
 //     })
 //     .then((res) => console.log(res.data))
 //     .catch((err) => console.log(err));
-
-
 
 // //05 async await axios api:
 // const makeRequest = async (config) => {
@@ -270,7 +241,6 @@
 //     .then((err) => console.log(err))
 // }
 // getData();
-
 
 // const sendData = () => {
 //     makeRequest('https://jsonplaceholder.typicode.com/posts', {
@@ -285,7 +255,6 @@
 //         .then((err) => console.log(err))
 // }
 // sendData();
-
 
 // const updateData = () => {
 //     makeRequest('https://jsonplaceholder.typicode.com/posts/1', {
@@ -302,7 +271,6 @@
 // }
 // updateData();
 
-
 // const updateSingalData = () => {
 //     makeRequest('https://jsonplaceholder.typicode.com/posts', {
 //         method: 'PETCH',
@@ -314,8 +282,6 @@
 //         .then((err) => console.log(err))
 // }
 // updateSingalData();
-
-
 
 // const deleteData = () => {
 //     makeRequest('https://jsonplaceholder.typicode.com/posts', {

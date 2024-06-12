@@ -54,7 +54,6 @@ for(Hamko in obj){
     console.log(obj);
 };*/
 
-
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 //06 Template Literaks:
@@ -78,13 +77,11 @@ console.log(`My name is ${name} and I am ${age} year's old`);*/
 // const [num1,num2,num3,num4,num5,num6] = number;
 // console.log(num6);
 
-
 // //arrow swap:
 // let b = 5, c = 16;
 // [b,c] = [c,b];
 // console.log(b);
 // console.log(c);
-
 
 //08 Object Destructuring:
 
@@ -105,7 +102,6 @@ console.log(`My name is ${name} and I am ${age} year's old`);*/
 //     console.log(`${name}, ${roll}`);
 // };
 // myFun(myName);
-
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
@@ -364,7 +360,6 @@ finally{
 //     console.log('i am a ' + message);
 // })
 
-
 // const promise = new Promise ((reslove,reject) => {
 //     const number = 1 - 1;
 //     if ( number === 0 ){
@@ -380,14 +375,11 @@ finally{
 //     console.log(err);
 // })
 
-
-
 // Promise.all([p,promise]).then((res) => {
 //     console.log(res);
 // }).catch((err) => {
 //     console.log(err);
 // })
-
 
 //-------------------------------------------------------------------------------------------------//
 
@@ -416,7 +408,6 @@ finally{
 // b = 5;
 // console.log(a!=b || b==a);
 
-
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
 // //27 foreach loop:
@@ -435,7 +426,6 @@ finally{
 // });
 // console.log(number1);
 
-
 // //28 foreach, map and filter array function:
 // let number = [2,3,4,5,6,7];
 // let squareNumber = [];
@@ -451,14 +441,12 @@ finally{
 // });
 // console.log(newNamber);
 
-
 // //filter
 // let number = [10,20,4,60,54,6,8,2,12];
 // let filterNumber = number.filter(function(x){
 //     return x >= 10;
 // });
 // console.log(filterNumber);
-
 
 // //29 array methods | find() | findIndex():
 // let number = [41,6,3,67,7,];
@@ -486,16 +474,11 @@ finally{
 // const bestGpa = studentsId.find(x => x.gpa > 5);
 // console.log(bestGpa);
 
-
-
-
 // //30 String methods | startsWith, endsWith, includes:
 // let message = "My name is Shahadat Hosen Noyon";
 // console.log(message.startsWith("My"));
 // console.log(message.endsWith("Noyon"));
 // console.log(message.includes("Shahadat Hosen"));
-
-
 
 // //31 async await function in javascript1:
 // console.log("Welcome to New Programmer Noyon");
@@ -529,7 +512,6 @@ finally{
 // }
 // callAllTask()
 // console.log("Bye Bye Task");
-
 
 // console.log("welcome to async and await Javascript");
 

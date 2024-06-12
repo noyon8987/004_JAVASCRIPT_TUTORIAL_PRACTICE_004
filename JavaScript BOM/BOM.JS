@@ -9,7 +9,7 @@
 
 // //protocol
 // let para2 = mydiv.children[1];
-// para2.textContent = location.protocol 
+// para2.textContent = location.protocol
 
 // //hostname
 // let para3 = mydiv.children[2];
@@ -23,16 +23,11 @@
 // let para5 = mydiv.children[4];
 // para5.textContent= location.pathname;
 
-
 // // //assign
 // let visitsite = document.querySelector("#btn");
 // visitsite.addEventListener("click",function(){
 //     location.assign("https://www.noyonofficial.com");
 // });
-
-
-
-
 
 // //02 popup boxes - alert, confirm, prompt :
 
@@ -48,8 +43,6 @@
 //     }
 // };
 // confirmMessage();
-
-
 
 // function writeSomething() {
 //     let h1 = document.createElement("h1");
@@ -68,9 +61,6 @@
 //     document.body.appendChild(h1);
 // }
 // writeSomething();
-
-
-
 
 // function myFunction(){
 //     let p = document.createElement("p");
@@ -91,9 +81,6 @@
 // }
 // myFunction();
 
-
-
-
 // //03 Timing events - setTimeout, setInterval:
 // let button = document.querySelector("button");
 // let para   = document.querySelector("p");
@@ -104,11 +91,9 @@
 //     para.textContent = "Your are save this PDF file";
 
 //     setTimeout(() => {
-//         para.textContent = ""; 
+//         para.textContent = "";
 //     }, 3000);
 // }
-
-
 
 // button.addEventListener("click",function(){
 //     para.textContent = "You are save this content";
@@ -117,8 +102,6 @@
 //         para.textContent = "";
 //     }, 2000);
 // });
-
-
 
 // let button = document.querySelector("button");
 // let p = document.querySelector("p");
@@ -133,12 +116,7 @@
 //     }, 1000);
 // });
 
-
-
-
-
 //////////////////----- Create a Digital Clock in Javascript -----\\\\\\\\\\\\\\\\\
-
 
 // let Button = document.querySelector("button");
 // let para = document.querySelector("p");
@@ -168,11 +146,7 @@
 //     return value;
 // };
 
-
-
-
 //----------------------------Error Handle in javascript --------------------------
-
 
 // //01 try, catch, finally error handle:
 // try {
@@ -185,7 +159,6 @@
 // }finally{
 //     alert("Noyon is a New Programmer");
 // };
-
 
 // //02 throw error handle:
 // document.querySelector("button").addEventListener("click",function(){

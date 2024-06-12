@@ -4,11 +4,9 @@
 // var MyName = 'Shahadat Hosen Noyon';
 // console.log(MyName);
 
-
 // !02 Number Type Variable:
 // var MyNumber = '01585735520';
 // console.log(MyNumber);
-
 
 // !03 Boolean Type Variable:
 // var BoolType = true;
@@ -20,11 +18,9 @@
 // let Letter = 'i live in bangladesh at chattogram and my village name is karnapuli,charlakhya';
 // console.log(Letter.toUpperCase());
 
-
 // !05 ToLowerCase Variable:
 // let Letter = 'I LIVE IN BANGLADESH AT CHATTOGRAM AND MY VILLAGE NAME IS KARNAPULI,CHARLAKHYA';
 // console.log(Letter.toLowerCase());
-
 
 /*----------------------------------------------------------------------------------------------------*/
 
@@ -35,7 +31,6 @@
 // !07 IndexOf (list are modda koi namber position a aca ata check kora) Type Variable:
 // let Name = 'noyon, korim, hakim, esan, jamal';
 // console.log(Name.indexOf("korim"));
-
 
 /*----------------------------------------------------------------------------------------------------*/
 
@@ -55,9 +50,7 @@
 // str2 = '' + str2;
 // console.log(str1 + str2);
 
-
 /*----------------------------------------------------------------------------------------------------*/
-
 
 // !10 Operators +++ Type Variable:
 // let num1 = 60;
@@ -84,10 +77,7 @@
 // let num2 = 4;
 // console.log(num1 % num2);
 
-
-
 /*----------------------------------------------------------------------------------------------------*/
-
 
 // !11 Math.abs Type Function:
 // let num1 = -19;
@@ -115,8 +105,6 @@
 // !15 Math.Random Type Function:
 // let Lotary = Math.random()*101;
 // console.log(Lotary);
-
-
 
 /*----------------------------------------------------------------------------------------------------*/
 
@@ -152,8 +140,6 @@
 // else{
 //     console.log("Noyon yours luck is very bad");
 // }
-
-
 
 // !19 Switch Condition:
 // let a = 1;
@@ -256,7 +242,6 @@
 // let country  = country1.concat(country2);
 // console.log(country);
 
-
 // !sort() Array:
 // let name = ['Noyon','Kaiser', 'Rafi','Joynal','Rohim']
 // let sortName = name.sort();
@@ -309,18 +294,15 @@
 //     console.log(person[x]);
 // }
 
-
 // !30 For of Loops:
 // for (const singal of "Noyon") {
 //     console.log(singal);
 // }
 
-
 // let cars = ['BMW',"VOLVO","TOYOTA"];
 // for(let x of cars){
 //     console.log(x);
 // }
-
 
 // !31 While Loops:
 // let i = 1;
@@ -348,14 +330,12 @@
 // }
 // console.log(sum);
 
-
 // !32 Do While Loops:
 // let i = 5;
 // do {
 //     console.log(i < 7)
 //     i++;
 // } while (i < 5);
-
 
 // let y = 5;
 // do{
@@ -412,7 +392,6 @@
 // let myfunction = myFun(4,5);
 // console.log(myfunction);
 
-
 // !IIFE (Immediately Invokeable Expressions Function) Function:
 
 // function display(){
@@ -431,7 +410,7 @@
 /*----------------------------------------------------------------------------------------------------*/
 
 // !33 Object:
-let MyInfo = {Name:'Noyon', Address:'Karnapuli', Number: '01585735520'};
+let MyInfo = { Name: "Noyon", Address: "Karnapuli", Number: "01585735520" };
 console.log(MyInfo.Name);
 console.log(MyInfo.Address);
 console.log(MyInfo.Number);
@@ -535,7 +514,6 @@ console.log(MyInfo.Number);
 // ]
 // let Name = highestScores(scores);
 // console.log(Name);
-
 
 /////// ES6 Modules ::::::
 
