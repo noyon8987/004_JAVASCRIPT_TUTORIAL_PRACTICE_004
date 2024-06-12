@@ -103,6 +103,25 @@ console.log(`My name is ${name} and I am ${age} year's old`);*/
 // };
 // myFun(myName);
 
+
+// const obj = {
+//         name : 'Noyon',
+//         age  :  20,
+//         Id   :  10
+//     }
+//     let {name,age,Id} = obj;
+//     console.log(name,age,Id);
+    
+//     const x = {name:"Noyon",age:21};
+//     const myName = ({name,age}) => {console.log(`${name}, ${age}`);};
+//     myName(x)
+    
+//     const myName1 = {name:"Hablu", roll:101};
+//     function myFun({name, roll}){
+//         console.log(`${name}, ${roll}`);
+//     };
+//     myFun(myName1);
+
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 //09 [Export & Import] Modules:
