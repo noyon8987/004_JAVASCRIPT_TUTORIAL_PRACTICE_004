@@ -3,14 +3,17 @@
 // !01 String Type Variable:
 // var MyName = 'Shahadat Hosen Noyon';
 // console.log(MyName);
+// console.log(typeof(MyName));
 
 // !02 Number Type Variable:
-// var MyNumber = '01585735520';
+// var MyNumber = 01585735520;
 // console.log(MyNumber);
+// console.log(typeof(MyNumber));
 
 // !03 Boolean Type Variable:
 // var BoolType = true;
 // console.log(BoolType);
+// console.log(typeof(BoolType));
 
 /*----------------------------------------------------------------------------------------------------*/
 
@@ -43,8 +46,8 @@
 // console.log(num1 + num2);
 
 // !09 (Number type ka string type a porinoto kora) Type Variable
-// let str1 = 50;
-// let str2 = 50;
+// let str1 = 20;
+// let str2 = 24;
 
 // str1 = '' + str1;
 // str2 = '' + str2;
@@ -58,24 +61,24 @@
 // console.log(num1 + num2);
 
 // !10 Operators --- Type Variable:
-// let num1 = 60;
-// let num2 = 40;
-// console.log(num1 - num2);
+// let num3 = 60;
+// let num4 = 40;
+// console.log(num3 - num4);
 
 //!10 Operators *** Type Variable:
-// let num1 = 6;
-// let num2 = 4;
-// console.log(num1 * num2);
+// let num5 = 6;
+// let num6 = 4;
+// console.log(num5 * num6);
 
 // !10 Operators /// Type Variable:
-// let num1 = 60;
-// let num2 = 6;
-// console.log(num1 / num2);
+// let num7 = 60;
+// let num8 = 6;
+// console.log(num7 / num8);
 
 // !10 Operators %%% Type Variable:
-// let num1 = 19;
-// let num2 = 4;
-// console.log(num1 % num2);
+// let num9 = 19;
+// let num10 = 4;
+// console.log(num9 % num10);
 
 /*----------------------------------------------------------------------------------------------------*/
 
@@ -86,7 +89,7 @@
 
 // !12 Math.Round Type Function:
 // let TotalMember = 11;
-// let Voter = 0.6;
+// let Voter = 0.5;
 // let sum = Math.round(Voter);
 // console.log(sum);
 
@@ -111,22 +114,22 @@
 // !16 If Condition:
 // let a = 99;
 // let b = 88;
-// if(a>b){
+// if (a > b) {
 //     console.log('Computer are mata tik aca')
 // }
 
 // !17 Else Condition:
 // let x = 98;
 // let y = 99;
-// if(x>y){
+// if (x > y) {
 //     console.log('Computer is running');
 // }
-// else{
+// else {
 //     console.log('Computer is not running');
 // }
 
 // !18 If Else If Else Condition:
-// let a = 18;
+// let a = 12;
 // let b = 19;
 // if(a>b){
 //     console.log("Noyon is not good Programmer");
@@ -142,13 +145,13 @@
 // }
 
 // !19 Switch Condition:
-// let a = 1;
+// let a = 2;
 // switch (a) {
 //     case 0:
 //         console.log('Zero');
 //         break;
 //     case 1:
-//         console.log(''One');
+//         console.log('One');
 //         break;
 //     case 2:
 //         console.log('Two');
@@ -160,7 +163,8 @@
 //         console.log('Not a Valid Number');
 // }
 
-// let letter = "a";
+
+// let letter = "i";
 
 // switch (letter) {
 //     case "a":
@@ -185,27 +189,29 @@
 // console.log(myDate.getMonth());
 // console.log(myDate.getMilliseconds());
 // console.log(myDate.getMinutes());
+// console.log(myDate.getHours());
 
 /*----------------------------------------------------------------------------------------------------*/
 
 // !21 Array:
-// let MyName = ['Shahadat','Hosen','Noyon'];
+// let MyName = ['Shahadat', 'Hosen', 'Noyon'];
 // console.log(MyName[2]);
 
-// let A = ['Noyon','korim','Tohin'];
+// let A = ['Noyon', 'korim', 'Tohin'];
 // A[0] = 'Rohim';
 // console.log(A);
 
-// let num = new Array()
-// for(let i = 0; i < 7; i++){
-//     num[i] = 7;
-// }
-// let sum = 0;
-// for(let i = 0; i < 7; i++){
-//     console.log(num[i]);
-//     sum = sum + num[i];
-// }
-// console.log(sum);
+let num = new Array()
+for (let i = 0; i < 7; i++) {
+    num[i] = 7;
+}
+
+let sum = 0;
+for (let i = 0; i < 7; i++) {
+    console.log(num[i]);
+    sum = sum + num[i];
+}
+console.log(sum);
 
 // !22 Push Array:
 // let Number = [875,948,234,543,456];
@@ -410,10 +416,10 @@
 /*----------------------------------------------------------------------------------------------------*/
 
 // !33 Object:
-let MyInfo = { Name: "Noyon", Address: "Karnapuli", Number: "01585735520" };
-console.log(MyInfo.Name);
-console.log(MyInfo.Address);
-console.log(MyInfo.Number);
+// let MyInfo = { Name: "Noyon", Address: "Karnapuli", Number: "01585735520" };
+// console.log(MyInfo.Name);
+// console.log(MyInfo.Address);
+// console.log(MyInfo.Number);
 
 // !34 Object:
 
