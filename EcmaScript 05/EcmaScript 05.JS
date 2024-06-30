@@ -201,17 +201,30 @@
 // A[0] = 'Rohim';
 // console.log(A);
 
-let num = new Array()
-for (let i = 0; i < 7; i++) {
-    num[i] = 7;
-}
+// let num = new Array();
+// for(let i = 0; i < 5; i++) {
+//     num[i] = parseInt(prompt("Enter Your Number:"));
+// }
 
-let sum = 0;
-for (let i = 0; i < 7; i++) {
-    console.log(num[i]);
-    sum = sum + num[i];
-}
-console.log(sum);
+// let sum = 0;
+// for (let i = 0; i < 5; i++){
+//     console.log(num[i]);
+//     sum = sum + num[i];
+// }
+
+// console.log(sum);
+
+// let num1 = new Array()
+// for (let i = 0; i < 8; i++) {
+//     num1[i] = 8;
+// }
+
+// let sum1 = 0;
+// for (let i = 0; i < 8; i++) {
+//     console.log(num1[i]);
+//     sum1 = sum1 + num1[i];
+// }
+// console.log(sum1);
 
 // !22 Push Array:
 // let Number = [875,948,234,543,456];
@@ -499,6 +512,20 @@ console.log(sum);
 // let Noyon = highestScores(scores);
 // console.log(Noyon);
 
+// function highestNunber (number){
+//     let max = number[0];
+//     for(let x = 1; x < number.length; x++){
+//         if (max < number[x]){
+//             max = number[x]
+//         }
+//     } return max;
+// }
+
+// let number = [10, 220, 60, 40, 50];
+// let maxNumber = highestNunber(number);
+// console.log(maxNumber); 
+
+
 // !40 Two Dimensional Array:
 // function highestScores(scores) {
 //     let max1 = scores[0][0];
@@ -521,6 +548,6 @@ console.log(sum);
 // let Name = highestScores(scores);
 // console.log(Name);
 
-/////// ES6 Modules ::::::
+// !ES6 Modules :
 
 //export let NewMessage = "Kabjab Pati";
