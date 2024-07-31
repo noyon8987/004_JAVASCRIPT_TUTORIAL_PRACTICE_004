@@ -104,6 +104,7 @@ console.log(`My name is ${name} and I am ${age} year's old`);*/
 // myFun(myName);
 
 
+
 // const obj = {
 //         name : 'Noyon',
 //         age  :  20,

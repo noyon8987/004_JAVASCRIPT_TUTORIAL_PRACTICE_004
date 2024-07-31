@@ -1,3 +1,32 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*------------------------------------ Start JavaScript Learning -------------------------------------*/
 
 // !01 String Type Variable:
@@ -520,6 +549,7 @@
 //         }
 //     } return max;
 // }
+
 
 // let number = [10, 220, 60, 40, 50];
 // let maxNumber = highestNunber(number);
