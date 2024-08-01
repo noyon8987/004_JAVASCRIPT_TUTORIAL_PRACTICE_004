@@ -1,32 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*------------------------------------ Start JavaScript Learning -------------------------------------*/
 
 // !01 String Type Variable:
@@ -60,9 +31,15 @@
 // let Name = 'noyon, korim, hakim, esan, jamal';
 // console.log(Name.split('jamal'))
 
+// let same = 'noyon, korim, jisan, fahim, rakib, fahad';
+// console.log(same.split('noyon'));
+
 // !07 IndexOf (list are modda koi namber position a aca ata check kora) Type Variable:
 // let Name = 'noyon, korim, hakim, esan, jamal';
 // console.log(Name.indexOf("korim"));
+
+// let Names = "Noyon, Hablu, Rafi, Munna, Abdulla";
+// console.log(Names.indexOf("n"));
 
 /*----------------------------------------------------------------------------------------------------*/
 
@@ -71,8 +48,17 @@
 // let num2 = '40';
 
 // num1 = parseInt(num1);
-// num2 = parseFloat(num2);
+// num2 = parseInt(num2);
 // console.log(num1 + num2);
+
+// let number1 = "20";
+// let number2 = "30";
+
+// number1 = parseFloat(number1);
+// number2 = parseFloat(number2);
+
+// const total = number1 + number2;
+// console.log("$" + total + " Dolar");
 
 // !09 (Number type ka string type a porinoto kora) Type Variable
 // let str1 = 20;
@@ -82,6 +68,13 @@
 // str2 = '' + str2;
 // console.log(str1 + str2);
 
+// let structure1 = 20;
+// let structure2 = 50;
+
+// structure1 = "" + structure1;
+// structure2 = "" + structure2;
+// console.log(structure1 + structure2 + " Years old.");
+
 /*----------------------------------------------------------------------------------------------------*/
 
 // !10 Operators +++ Type Variable:
@@ -89,10 +82,18 @@
 // let num2 = 40;
 // console.log(num1 + num2);
 
+// let h = 20;
+// let l = 50;
+// console.log(h + l);
+
 // !10 Operators --- Type Variable:
 // let num3 = 60;
 // let num4 = 40;
 // console.log(num3 - num4);
+
+// let u = 71;
+// let w = 50;
+// console.log(u - w);
 
 //!10 Operators *** Type Variable:
 // let num5 = 6;
@@ -109,6 +110,10 @@
 // let num10 = 4;
 // console.log(num9 % num10);
 
+// let d = 41;
+// let s = 3;
+// console.log(d % s);
+
 /*----------------------------------------------------------------------------------------------------*/
 
 // !11 Math.abs Type Function:
@@ -118,9 +123,13 @@
 
 // !12 Math.Round Type Function:
 // let TotalMember = 11;
-// let Voter = 0.5;
+// let Voter = 0.6;
 // let sum = Math.round(Voter);
 // console.log(sum);
+
+// let dum = 0.4;
+// let kum = Math.round(dum);
+// console.log(kum);
 
 // !13 Math.ceil Type Function:
 // let TotalMember = 10;
@@ -137,6 +146,9 @@
 // !15 Math.Random Type Function:
 // let Lotary = Math.random()*101;
 // console.log(Lotary);
+
+// let some = Math.random()*10;
+// console.log(some);
 
 /*----------------------------------------------------------------------------------------------------*/
 
@@ -159,7 +171,7 @@
 
 // !18 If Else If Else Condition:
 // let a = 12;
-// let b = 19;
+// let b = 17;
 // if(a>b){
 //     console.log("Noyon is not good Programmer");
 // }
@@ -207,6 +219,36 @@
 //         console.log("Consonent");
 // }
 
+
+// let sum = 3;
+// switch (sum) {
+//     case 1:
+//         console.log("One");
+//         break;
+//     case 2:
+//         console.log("Two");
+//         break;
+//     case 3:
+//         console.log("Three");
+//         break;
+//     default:
+//         console.log("Not Valid Number");
+// }
+
+
+// let alfabat = "q";
+// switch (alfabat) {
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//         console.log("Vowel");
+//         break;
+//     default:
+//         console.log("Consonant");
+// }
+
 /*----------------------------------------------------------------------------------------------------*/
 
 // !20 Date Object:
@@ -220,15 +262,27 @@
 // console.log(myDate.getMinutes());
 // console.log(myDate.getHours());
 
+
+// let myDate = new Date();
+// console.log(myDate.toDateString());
+// console.log(myDate.toTimeString());
+// console.log(myDate.getDate());
+// console.log(myDate.getDay());
+// console.log(myDate.getFullYear());
+// console.log(myDate.getMilliseconds());
+
 /*----------------------------------------------------------------------------------------------------*/
 
 // !21 Array:
 // let MyName = ['Shahadat', 'Hosen', 'Noyon'];
 // console.log(MyName[2]);
 
+
 // let A = ['Noyon', 'korim', 'Tohin'];
 // A[0] = 'Rohim';
 // console.log(A);
+
+
 
 // let num = new Array();
 // for(let i = 0; i < 5; i++) {
@@ -240,8 +294,23 @@
 //     console.log(num[i]);
 //     sum = sum + num[i];
 // }
-
 // console.log(sum);
+
+
+// let x = new Array();
+// for(let i = 0; i < 9; i++){
+//     x[i] = parseInt(prompt("Enter Some Number:"));
+// }
+
+// let y = 0;
+// for(let i = 0; i < 9; i++){
+//     console.log(x[i]);
+//     y = y + x[i];
+// }
+// console.log(y);
+
+
+
 
 // let num1 = new Array()
 // for (let i = 0; i < 8; i++) {
@@ -266,18 +335,18 @@
 // console.log(Name);
 
 // !24 Shift Array:
-// let Hi = ['mona','sona','jano','mano'];
+// let Hi = ['moni','sona','jano','mano'];
 // Hi.shift();
 // console.log(Hi);
 
 // !25 UnShift Array:
-// let Hi = ['mona','sona','jano','mano'];
+// let Hi = ['moni','sona','jano','mano'];
 // Hi.unshift('jano paki');
 // console.log(Hi);
 
 // !26 Slice Array:
 // let Hello = ['Kaiser','Munna','Noyon','Tarak','Jamal','Abdulla','Jogon'];
-// console.log(Hello.slice(1,6));
+// console.log(Hello.slice(1,5));
 
 // !27 Splice Array:
 // let Nanno = ['Kaiser','Munna','Noyon','Tarak','Jamal','Abdulla','Jogon'];
@@ -285,8 +354,8 @@
 // console.log(Nanno);
 
 //  !Concat Array:
-// let country1 = ['Bangladesh','India'];
-// let country2 = ['Canada','Australia'];
+// let country1 = ['Bangladesh ','India'];
+// let country2 = ['Canada ','Australia'];
 // let country  = country1.concat(country2);
 // console.log(country);
 
@@ -301,11 +370,19 @@
 // });
 // console.log(number);
 
+
 // let bumber = [1, 4, 7, 9, 2, 5, 3, 6, 8];
 // bumber.sort(function (a, b) {
 //     return b - a;
 // });
 // console.log(bumber);
+
+
+// let someNumber = [1, 2, 8, 5, 7, 6, 3, 9, 4];
+// someNumber.sort(function(a, b){
+//     return a - b;
+// })
+// console.log(someNumber);
 
 /*----------------------------------------------------------------------------------------------------*/
 
@@ -315,16 +392,19 @@
 //     console.log(i);
 // }
 
+
 // let num = 0;
 // for (let i = 1; i <= 10; i = i + 1) {
 //     console.log(i);
 // }
+
 
 // let sum = 0;
 // for (let x = 1; x <= 10; x++) {
 //     sum = sum + x;
 // }
 // console.log(sum);
+
 
 // let num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // for (i = 0; i < 5; i++) {
@@ -335,22 +415,42 @@
 // let person = {
 //     FirstName: "Shahadat Hosen",
 //     lastName: "Noyon",
-//     age: 21
+//     age: 21,
+//     love: "100%"
 // };
 
 // for(let x in person){
 //     console.log(person[x]);
 // }
 
+
+// let doctors = {
+//     Name : "Habibulla Kan",
+//     position_No : 1,
+//     successful : "98%"
+// }
+
+// for(let doc in doctors){
+//     console.log(doctors[doc]);
+// }
+
+
 // !30 For of Loops:
 // for (const singal of "Noyon") {
 //     console.log(singal);
 // }
 
+
+// for(let i of "Jamal_Kan"){
+//     console.log(i);
+// }
+
+
 // let cars = ['BMW',"VOLVO","TOYOTA"];
 // for(let x of cars){
 //     console.log(x);
 // }
+
 
 // !31 While Loops:
 // let i = 1;
@@ -367,6 +467,8 @@
 // }
 // console.log(y);
 
+
+
 // let num = 0;
 // let sum = 0;
 // while (num <= 40) {
@@ -377,6 +479,8 @@
 //     num++
 // }
 // console.log(sum);
+
+
 
 // !32 Do While Loops:
 // let i = 5;
@@ -553,7 +657,7 @@
 
 // let number = [10, 220, 60, 40, 50];
 // let maxNumber = highestNunber(number);
-// console.log(maxNumber); 
+// console.log(maxNumber);
 
 
 // !40 Two Dimensional Array:

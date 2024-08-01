@@ -1,4 +1,4 @@
-// //01 calling api from javascript | XMLHttpRequest:
+// 01 calling api from javascript | XMLHttpRequest:
 
 //event - onload(), onerror():
 
