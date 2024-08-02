@@ -459,10 +459,18 @@
 //     i++;
 // }
 
+
+// let i = 1;
+// while (i <= 10) {
+//     console.log(i);
+//     i++;
+// }
+
+
 // let x = 0;
 // let y = 0;
 // while (x <= 9) {
-//     x++
+//     x++;
 //     y = y + x;
 // }
 // console.log(y);
@@ -489,9 +497,11 @@
 //     i++;
 // } while (i < 5);
 
+
+
 // let y = 5;
 // do{
-//     console.log(y < 2);
+//     console.log(y < 3);
 //     y++;
 // }while(y < 5);
 
@@ -562,10 +572,16 @@
 /*----------------------------------------------------------------------------------------------------*/
 
 // !33 Object:
-// let MyInfo = { Name: "Noyon", Address: "Karnapuli", Number: "01585735520" };
+// let MyInfo = {
+//     Name: "Noyon",
+//     Address: "Karnapuli",
+//     Number: "01585735520"
+// };
 // console.log(MyInfo.Name);
 // console.log(MyInfo.Address);
 // console.log(MyInfo.Number);
+
+// console.log(MyInfo);
 
 // !34 Object:
 
@@ -574,8 +590,9 @@
 //     midelName: "Hosen",
 //     lastsName: "Noyon",
 //     age: 21,
+
 //     fullInformation: function () {
-//         return "My name is " + this.firstName + " " + this.midelName + " " + this.lastsName + " " + "and I am a " + this.age;
+//         return "My name is " + this.firstName + " " + this.midelName + " " + this.lastsName + " " + "and I am a " + this.age + " " + "Years Old.";
 //     }
 // }
 // console.log(myInformation.fullInformation());
@@ -586,6 +603,10 @@
 // let num = 55;
 // let MyCondition = (num < 10) ? "Ami coto vai" : "ami boro vai";
 // console.log(MyCondition);
+
+// let i = 10;
+// let j = i > 15 ? "I Love You" : "I Hate You";
+// console.log(j);
 
 // let number = 2;
 // let result = number > 0 ? "Positive" : "Nagetive";
@@ -645,6 +666,21 @@
 // let Noyon = highestScores(scores);
 // console.log(Noyon);
 
+
+// function noyon(){
+//     let highestNunber = number[0];
+//     for(let i = 0; i <= number.length; i++){
+//         if(highestNunber < number[i]){
+//             highestNunber = number[i];
+//         }
+//     }
+//     return highestNunber;
+// }
+// let number = [10, 20, 50, 40, 60, 30, 100, 80, 90];
+// let hablu = noyon(number);
+// console.log(hablu);
+
+
 // function highestNunber (number){
 //     let max = number[0];
 //     for(let x = 1; x < number.length; x++){
@@ -658,6 +694,19 @@
 // let number = [10, 220, 60, 40, 50];
 // let maxNumber = highestNunber(number);
 // console.log(maxNumber);
+
+
+// function myfunction(){
+//     let maxNumber = Numbers[0];
+//     for(let i = 0; i < Numbers.length; i++){
+//         if(maxNumber < Numbers[i]){
+//             maxNumber = Numbers[i];
+//         }
+//     }
+//     return maxNumber;
+// }
+// let Numbers = [10,20,300,50,40,60,70];
+// console.log(myfunction(Numbers));
 
 
 // !40 Two Dimensional Array:
