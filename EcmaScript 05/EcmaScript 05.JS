@@ -710,7 +710,7 @@
 
 
 // !40 Two Dimensional Array:
-// function highestScores(scores) {
+// function highestScores() {
 //     let max1 = scores[0][0];
 //     let max2 = scores[0][1];
 //     for (i = 1; i < scores.length; i++) {
@@ -731,6 +731,29 @@
 // let Name = highestScores(scores);
 // console.log(Name);
 
+
+// function x (){
+//     let y = objectNumber[0][0];
+//     let z = objectNumber[0][1];
+//     for(let i = 0; i < objectNumber.length; i++){
+//         if(z < objectNumber[i][1]){
+//            z = objectNumber[i][1];
+//            y = objectNumber[i][0];
+//         }
+//     }
+//     return y;
+// }
+
+// let objectNumber = [
+//     ["Noyon", 55],
+//     ["Habib", 88],
+//     ["Jisan", 77],
+//     ["Helal", 66],
+//     ["I Miss You", 99]
+// ];
+// let favoriteName = x(objectNumber);
+// console.log(favoriteName);
+
 // !ES6 Modules :
 
-//export let NewMessage = "Kabjab Pati";
+// export let NewMessage = "Kabjab Pati";
