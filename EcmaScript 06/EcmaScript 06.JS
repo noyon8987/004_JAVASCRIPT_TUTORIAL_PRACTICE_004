@@ -705,10 +705,21 @@ finally{
 // });
 // console.log(filterNumber);
 
-// ?29 array methods | find() | findIndex():
-// let number = [41,6,3,67,7,];
+//  ?29 array methods | find() | findIndex():
+// let number = [41,8,4,6,3,67,7];
 // const findNumber = number.find(x => x%2 === 0);
 // console.log(findNumber);
+
+
+// let number = [11,55,66,45,32,56,74];
+// let findNumber = number.find(x => x / 2 === 28);
+// console.log(findNumber);
+
+// let num = [1,8,6,4,7,6,4,2,5,8];
+// let sum = num.find(x => x * 2 === 14);
+// console.log(sum);
+
+
 
 // let number = [5,65,85,48,6,54];
 // const myNumber = (x) => {
