@@ -796,6 +796,7 @@ finally{
 //     })
 // }
 
+
 // const taskThree = () => {
 //     return new Promise((reslove, reject) => {
 //         reject("Taskk Three is not completed")
