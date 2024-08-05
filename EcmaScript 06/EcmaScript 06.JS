@@ -543,18 +543,18 @@
 // let num = [10,15,20,30,40,50];
 // let sum = num.filter(Number);
 // function Number (x) {
-//     return x >= 10;
+//     return x > 10;
 // }
 // console.log(sum);
 
 // ?22 Asynchronous Vs Synchronous:
 
 // let x = () => {
-//     console.log(x);
+//     console.log("x");
 // }
 
 // let dataLoading = () => {
-//     console.log(y);
+//     console.log("y");
 // }
 
 // let y = () => {
@@ -562,24 +562,170 @@
 // }
 
 // let z = () => {
-//     console.log(z);
+//     console.log("z");
 // }
 
 // x();
 // y();
 // z();
 
+
+// const taskOne = () => {
+//     console.log("Task-one");
+// }
+
+// const dataLoading = () => {
+//     console.log("Task-Two");
+// }
+
+// const taskTwo = () => {
+//     setTimeout(dataLoading, 3000)
+// }
+// const taskThree = () => {
+//     console.log("Task-Three");
+// }
+// const taskFour = () => {
+//     console.log("Task-Four");
+// }
+// const taskFive = () => {
+//     console.log("Task-Five");
+// }
+
+// taskOne();
+// taskTwo();
+// taskThree();
+// taskFour();
+// taskFive();
+
+
+// const rollOne = () => {
+//     console.log("Roll-one");
+// }
+
+// const rollTwo = () => {
+//     console.log("Roll-Two");
+// }
+
+// const rollThree = () => {
+//     console.log("Roll-Three");
+// }
+
+// const dataLoading = () => {
+//     console.log("Roll-Four");
+// }
+
+// const rollFour = () => {
+//     setTimeout(dataLoading, 2000);
+// }
+
+// const rollFive = () => {
+//     console.log("Roll-Five");
+// }
+
+// rollOne();
+// rollTwo();
+// rollThree();
+// rollFour();
+// rollFive();
+
+
+// const dataLoading = () => {
+//     console.log("Noyon is comeing 3 second leter.");
+// }
+// const noyon = () => {
+//     setTimeout(dataLoading, 3000);
+// }
+// const Halel = () => {
+//     console.log("Helal is comeing on the time.");
+// }
+// const Hablu = () => {
+//     console.log("Hablu is comeing on the time.");
+// }
+
+// noyon();
+// Halel();
+// Hablu();
+
 // ?23 CallBack and Higher Order Function:
+
+// const taskOne = (CallBack) => {
+//     console.log("Task-one");
+//     CallBack();
+// }
+// const taskTwo = (CallBack) => {
+//     setTimeout(() => {
+//         console.log("Task-Two");
+//         CallBack();
+//     }, 3000);
+// }
+// const taskThree = (CallBack) => {
+//     console.log("Task-Three");
+//     CallBack();
+// }
+// const taskFour = (CallBack) => {
+//     console.log("Task-Four");
+//     CallBack();
+// }
+// const taskFive = () => {
+//     console.log("Task-Five");
+// }
+
+// taskOne(function f1() {
+//     taskTwo(function f2() {
+//         taskThree(function f3 () {
+//             taskFour(function f4 () {
+//                 taskFive()
+//             })
+//         });
+//     });
+// });
+
+
+
+
+// const T1 = (CallBack) => {
+//     console.log("Number One");
+//     CallBack();
+// }
+
+// const T2 = (CallBack) => {
+//     setTimeout(() => {
+//         console.log("Number Two");
+//         CallBack()
+//     }, 2000);
+// }
+// const T3 = (CallBack) => {
+//     console.log("Number Three");
+//     CallBack();
+// }
+
+// const T4 = () => {
+//     console.log("Number Four");
+// }
+
+// T1(()=>{
+//     T2(()=>{
+//         T3(()=>{
+//             T4()
+//         })
+//     })
+// });
+
+// or //
+
+// T1(()=>{T2(()=>{T3(()=>{T4()})})});
+
+
 
 // let x = (someting) => {
 //     console.log(someting);
 // }
 
-// let HigherOrderFumn = (Name, Class, CallBack) => {
-//     const Details = `My name is ${Name} and I read in class$ {Class}`
+// let HigherOrderFun = (Name, Class, CallBack) => {
+//     const Details = `My name is ${Name} and I read in class ${Class}.`
 //     CallBack(Details)
 // }
-// HigherOrderFumn('Noyon','13',x);
+// HigherOrderFun('Noyon','13',x);
 
 // ?24 Try, Catch, Throw, Finally Keywords:
 
