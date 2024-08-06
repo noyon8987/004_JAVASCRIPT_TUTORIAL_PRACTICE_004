@@ -175,16 +175,16 @@
 //     }
 //     let {name,age,Id} = obj;
 //     console.log(name,age,Id);
-    
-    // const x = {name:"Noyon",age:21};
-    // const myName = ({name,age}) => {console.log(`${name}, ${age}`);};
-    // myName(x)
-    
-    // const myName1 = {name:"Hablu", roll:101};
-    // function myFun({name, roll}){
-    //     console.log(`${name}, ${roll}`);
-    // };
-    // myFun(myName1);
+
+// const x = {name:"Noyon",age:21};
+// const myName = ({name,age}) => {console.log(`${name}, ${age}`);};
+// myName(x)
+
+// const myName1 = {name:"Hablu", roll:101};
+// function myFun({name, roll}){
+//     console.log(`${name}, ${roll}`);
+// };
+// myFun(myName1);
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
@@ -749,19 +749,50 @@ finally{
 
 // ?25 Promise:
 
-// let p = new Promise ((reslove,reject) => {
+// let p = new Promise((reslove, reject) => {
 //     let a = 1 + 2;
-//     if ( a == 3 ){
-//         reslove ('success')
-//     }else{
+//     if (a == 3) {
+//         reslove('success')
+//     } else {
 //         reject('Failed')
 //     }
 // })
-// p.then((message)=>{
+// p.then((message) => {
 //     console.log('i am a ' + message);
-// }).catch((message)=>{
+// }).catch((message) => {
 //     console.log('i am a ' + message);
 // })
+
+
+// const promise = new Promise((resolve, reject) => {
+//     let promise = true;
+//     if(promise){
+//         resolve("that is true")
+//     }
+//     else{
+//         reject("that is false")
+//     }
+// })
+
+// promise.then((res)=>{console.log(res)})
+// .catch((err)=>{console.log(err)})
+
+
+
+// const Promise1 = new Promise((resolve, reject)=>{
+//     let x = 5;
+//     let y = 5;
+//     let z = 5*5;
+//     if(z == 25){
+//         resolve("Right")
+//     }else{
+//         reject("Rong")
+//     }
+// })
+// Promise1.then((res)=>{console.log(res)})
+// .catch((err)=>{console.log(err)})
+
+
 
 // const promise = new Promise ((reslove,reject) => {
 //     const number = 1 - 1;
@@ -772,17 +803,11 @@ finally{
 //         reject ("Noyon is Bad Programmer")
 //     }
 // });
-// promise.then ((message) => {
-//     console.log(message);
-// }).catch((err) => {
-//     console.log(err);
-// })
+// promise.then ((message) => {console.log(message)})
+// .catch((err) => {console.log(err)})
 
-// Promise.all([p,promise]).then((res) => {
-//     console.log(res);
-// }).catch((err) => {
-//     console.log(err);
-// })
+// Promise.all([promise]).then((res) => {console.log(res)})
+// .catch((err) => {console.log(err)})
 
 //-------------------------------------------------------------------------------------------------//
 
