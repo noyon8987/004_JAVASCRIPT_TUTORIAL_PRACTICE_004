@@ -36,7 +36,7 @@
 // ?03 Spread Operator:
 
 // const array1 = [0, 1, 2, 3, 4];
-// const array2 = [5, 6, 7, 8, 9, ...array1];       
+// const array2 = [5, 6, 7, 8, 9, ...array1];
 //        // or / [...array1, 5, 6, 7, 8,9];
 // console.log(array2);
 
