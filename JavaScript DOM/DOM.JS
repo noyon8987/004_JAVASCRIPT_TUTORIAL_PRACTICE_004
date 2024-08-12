@@ -1,13 +1,13 @@
-//////////////////////////// JavaScript DOM Tutorial \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+// ---------------------------JavaScript DOM Tutorial-------------------------- \\
 //...............................................................................\\
 
-// //01 GetElementById/GetElementsByTagName/GetElementsByclassName :-------------------------------------
+// !01 GetElementById/GetElementsByTagName/GetElementsByclassName :-------------------------------------
 
 // document.getElementById("heading1").innerHTML = "Hello World.";
 // document.getElementsByClassName("heading1")[0].innerHTML = "Hello Noyon.";
 // document.getElementsByTagName("h1")[2].innerHTML = "Programmer Noyon.";
 
-// //02 querySelector :--------------------------------------
+// !02 querySelector :--------------------------------------
 // document.querySelector("#heading1").innerHTML = "My Name is Noyon";
 // document.querySelector(".heading1").innerHTML = "My name is Hablu";
 // document.querySelector("h1").innerHTML = "My name is Abdullah";
@@ -45,7 +45,7 @@
 //     Button.innerHTML = "I am a Button 5"
 // };
 
-// //onclick event 02:
+// !onclick event 02:
 // let button = document.querySelector("#img");
 
 // function pic1(){
@@ -56,7 +56,7 @@
 //     button.src = "222.jpg";
 //  };
 
-// //03 Css Style in Javascript:
+// !03 Css Style in Javascript:
 // let link = document.querySelector("a");
 // link.style.color = "red";
 // link.style.fontSize = "2rem";
@@ -64,7 +64,7 @@
 // link.style.color = "Black";
 // link.style.fontWeight = "Bold";
 
-// //04 Html add,remove in Javascript:
+// !04 Html add,remove in Javascript:
 // let heading3 = document.createElement("h1");
 // let text = document.createTextNode("This is Heading 2");
 // heading3.appendChild(text);
@@ -95,31 +95,31 @@
 
 // document.getElementById("div").classList.remove("myclass");
 
-// //05 List select in Javascript:
+// !05 List select in Javascript:
 // let students = document.querySelector(".mylist");
 // let student1  = students.querySelector(".my-list1");
 
-// //Downwards Children:
+// !Downwards Children:
 // let students = document.querySelector(".mylist");
 // let student2 = students.children[0];
 
-// //upWards - ParentElement:
+// !upWards - ParentElement:
 // let student3 = document.querySelector("li");
 // let students = student3.parentElement;
 
-// //sideWards - nextElementSibling, PrecousElementSibling:
+// !sideWards - nextElementSibling, PrecousElementSibling:
 // let student4 = document.querySelector("li");
 // let student5 = student4.nextElementSibling;
 
 // let student7 = document.querySelectorAll("li")[2];
 // let student8 = student7.previousElementSibling;
 
-// //sideWays - parentElement, children, index:
+// !sideWays - parentElement, children, index:
 // let studenta = document.querySelector("li");
 // let studentb = studenta.parentElement;
 // let studentc = studentb.children[2];
 
-// //06 image slider:
+// !06 image slider:
 // let img = ["111.jpg","222.jpg","333.png","444.png"];
 // let imgTag = document.querySelector("img");
 
@@ -145,7 +145,7 @@
 //     }
 // }
 
-// //07 Changing CSS style dynamically:
+// !07 Changing CSS style dynamically:
 // let style = document.querySelector("h1");
 // function addStyle(){
 //     style.classList.add("js-style");
@@ -154,7 +154,7 @@
 //     style.classList.remove("js-style");
 // };
 
-// //08 Event Listener:
+// !08 Event Listener:
 // let click = document.querySelector("button");
 // click.addEventListener("click", myfun);
 
@@ -162,7 +162,7 @@
 //     alert("Hello Proggrammer");
 // }
 
-// // ---------------------------------------------------
+// ! ---------------------------------------------------
 
 // let events = document.querySelector("h1");
 // events.addEventListener("mouseover", function(){
@@ -173,7 +173,7 @@
 //     events.classList.remove("js-style");
 // });
 
-// //09 Event Listeners with multiple elements:
+// !09 Event Listeners with multiple elements:
 // for (let i = 0; i < 3; i++) {
 //     document.querySelectorAll(".button")[i].addEventListener("click", function () {
 //         let text = this.innerHTML;
@@ -190,7 +190,7 @@
 //     });
 // };
 
-// //10 audio play in javascript:
+// !10 audio play in javascript:
 // for (let i = 0; i < 3; i++) {
 //     document.querySelectorAll(".btn")[i].addEventListener("click", function () {
 //         let text = this.innerHTML;
@@ -217,7 +217,7 @@
 //     })
 // };
 
-// //11 add and remove animation in JavaScript:
+// !11 add and remove animation in JavaScript:
 // for (let i = 0; i < 3; i++) {
 //     document.querySelectorAll(".btn")[i].addEventListener("click", function () {
 //         let text = this.innerHTML;
@@ -255,7 +255,7 @@
 //     }, 1000);
 // }
 
-// //12 Keypress listener in JavaScript:
+// !12 Keypress listener in JavaScript:
 // let count = 0;
 // document.querySelector("textarea").addEventListener("keypress", function (event) {
 //     count++
@@ -264,7 +264,7 @@
 //     document.querySelector("h1").innerHTML = "You have pressed: " + count;
 // });
 
-// //13 onchange event in javascript:
+// !13 onchange event in javascript:
 // let inputName = document.querySelector("input[name=name]");inputName.addEventListener("change",changeHandaler);
 
 // function changeHandaler(event){
@@ -276,7 +276,7 @@
 // }
 
 // const program = document.querySelectorAll("input[name=program]");
-// // console.log(program);
+//  console.log(program);
 
 // Array.from(program).map((program) => {
 //     program.addEventListener("change",programHandaler)
@@ -284,21 +284,21 @@
 
 // function programHandaler(e){
 //     if(e.target.checked){
-//         // console.log("checked");
+//          console.log("checked");
 //         console.log(e.target.value);
 //     }
 // };
 
 // const department = document.querySelector("#department");
-// // console.log(department);
+//  console.log(department);
 
 // department.addEventListener("change",departmentHandalar);
 // function departmentHandalar(e){
-//     // console.log("selected");
+//      console.log("selected");
 //     console.log(e.target.value);
 // };
 
-// //14 onsubmit event in javascript:
+// !14 onsubmit event in javascript:
 // const form = document.querySelector("form");
 // const name = form.querySelector("div #name");
 // const email = form.querySelector("div #E-mail");
@@ -307,7 +307,7 @@
 // form.addEventListener("submit", formHandalar);
 // function formHandalar(e) {
 //     e.preventDefault();
-//     // console.log("submit");
+//      console.log("submit");
 
 //     const userInfo = {
 //         name: name.value,
@@ -320,7 +320,7 @@
 //     password.value = "";
 // };
 
-// //15 media events in javascript:
+// !15 media events in javascript:
 // const video = document.querySelector("video");
 // video.addEventListener("canplay", function(){
 //     console.log("canplay");
@@ -346,7 +346,7 @@
 //     console.log("Thanks for watching");
 // });
 
-// //16 load, unload, scroll, resize, toggle -> (details) Event in javascript:
+// !16 load, unload, scroll, resize, toggle -> (details) Event in javascript:
 // window.addEventListener("load",function(){
 //     console.log("load");
 // });
@@ -360,7 +360,7 @@
 // });
 
 // window.addEventListener("resize",function(e){
-//     // console.log("resize");
+//      console.log("resize");
 //     let widht = window.outerWidth;
 //     let height = window.outerHeight;
 //     console.log(`widht: ${widht},height: ${height}`);
@@ -368,11 +368,11 @@
 
 // let details = document.querySelector("details");
 // details.addEventListener("toggle",function(e){
-//     // console.log("toggle");
+//      console.log("toggle");
 //     console.log(e.target.open);
 // });
 
-// //17 onclick, ondblclick, onmousedown, onmouseup, onmouseenter, onmouseleave, onmousemove, onmouseover - event in javascript:
+// !17 onclick, ondblclick, onmousedown, onmouseup, onmouseenter, onmouseleave, onmousemove, onmouseover - event in javascript:
 // let div = document.querySelector("div");
 // div.addEventListener("click",function(e){
 // console.log("clicked");
@@ -402,8 +402,7 @@
 
 // div.addEventListener("mouseleave",function(){
 //     console.log("mouseleave");
-// });
-
+// })
 // div.addEventListener("mousemove",function(e){
 // console.log("mousemove");
 // console.log("mouseClientX = " + e.clientX, "mouseClientY =" + e.clientY);
@@ -415,7 +414,7 @@
 // });
 
 // let button = document.querySelectorAll(".button");
-// // console.log(button);
+//  console.log(button);
 
 // Array.from(button).map((button) => {
 //     button.addEventListener("click", function(e){
@@ -428,7 +427,7 @@
 //     })
 // })
 
-// //18 keydown, keyup, keypress, KeybordEvent in javascript:-- some propertice : key, keycode, code, shiftkey, ctrkey, repeat:
+// !18 keydown, keyup, keypress, KeybordEvent in javascript:-- some propertice : key, keycode, code, shiftkey, ctrkey, repeat:
 
 // => KeyPress = is not support in my Crome Browser.
 
@@ -451,16 +450,16 @@
 //     console.log("keyup");
 // });
 
-// //19 onblur, onfocus, onfocusin, onfocusout event:
+// !19 onblur, onfocus, onfocusin, onfocusout event:
 // let input = document.querySelector("input");
 // input.addEventListener("blur",function(e){
-//     // console.log("blur");
-//     // console.log(e.target.value);
+//      console.log("blur");
+//      console.log(e.target.value);
 //     input.value = e.target.value.toUpperCase();
 // });
 
 // input.addEventListener("focus",function(){
-//     // console.log("focus");
+//      console.log("focus");
 // });
 
 // input.addEventListener("focusin",function(){
@@ -471,26 +470,26 @@
 //     console.log("focusout");
 // });
 
-// //20 oncopy, oncut, onpaste ClipboardEvent:
+// !20 oncopy, oncut, onpaste ClipboardEvent:
 // let input = document.querySelector("input");
 // let ptag  = document.querySelector("p");
 
 // input.addEventListener("copy",function(){
-//     // console.log("copy this text");
+//      console.log("copy this text");
 //     ptag.innerText = "your are copy this text"
 // })
 
 // input.addEventListener("cut",function(){
-//     // console.log("cut this text");
+//      console.log("cut this text");
 //     ptag.innerText = "your are cut this text"
 // })
 
 // input.addEventListener("paste",function(){
-//     // console.log("paste this text");
+//      console.log("paste this text");
 //     ptag.innerText = "your are paste this text"
 // })
 
-// //21 ondragstart, ondrag, ondragend, ondragenter, ondragleave, ondrover, ondrop, DragEventDragEvent:
+// !21 ondragstart, ondrag, ondragend, ondragenter, ondragleave, ondrover, ondrop, DragEventDragEvent:
 
 // const div = document.querySelector("div");
 // const para = document.querySelector("p");
@@ -510,7 +509,7 @@
 //     e.preventDefault();
 // });
 
-// //22 media events in javascript:
+// !22 media events in javascript:
 // const video = document.querySelector("video");
 // video.addEventListener("canplay", function(){
 //     console.log("canplay");
@@ -536,7 +535,7 @@
 //     console.log("Thanks for watching");
 // });
 
-// //23 load, unload, scroll, resize, toggle -> (details) Event in javascript:
+// !23 load, unload, scroll, resize, toggle -> (details) Event in javascript:
 // window.addEventListener("load",function(){
 //     console.log("load");
 // });
@@ -550,7 +549,7 @@
 // });
 
 // window.addEventListener("resize",function(e){
-//     // console.log("resize");
+//      console.log("resize");
 //     let widht = window.outerWidth;
 //     let height = window.outerHeight;
 //     console.log(`widht: ${widht},height: ${height}`);
@@ -558,11 +557,11 @@
 
 // let details = document.querySelector("details");
 // details.addEventListener("toggle",function(e){
-//     // console.log("toggle");
+//      console.log("toggle");
 //     console.log(e.target.open);
 // });
 
-// //24 onclick, ondblclick, onmousedown, onmouseup, onmouseenter, onmouseleave, onmousemove, onmouseover - event in javascript:
+// !24 onclick, ondblclick, onmousedown, onmouseup, onmouseenter, onmouseleave, onmousemove, onmouseover - event in javascript:
 // let div = document.querySelector("div");
 // div.addEventListener("click",function(e){
 // console.log("clicked");
@@ -605,7 +604,7 @@
 // });
 
 // let button = document.querySelectorAll(".button");
-// // console.log(button);
+//  console.log(button);
 
 // Array.from(button).map((button) => {
 //     button.addEventListener("click", function(e){
@@ -618,7 +617,7 @@
 //     })
 // })
 
-// //25 keydown, keyup, keypress, KeybordEvent in javascript:-- some propertice : key, keycode, code, shiftkey, ctrkey, repeat:
+// !25 keydown, keyup, keypress, KeybordEvent in javascript:-- some propertice : key, keycode, code, shiftkey, ctrkey, repeat:
 
 // => KeyPress = is not support in my Crome Browser.
 
@@ -641,16 +640,16 @@
 //     console.log("keyup");
 // });
 
-// //26 onblur, onfocus, onfocusin, onfocusout event:
+// !26 onblur, onfocus, onfocusin, onfocusout event:
 // let input = document.querySelector("input");
 // input.addEventListener("blur",function(e){
-//     // console.log("blur");
-//     // console.log(e.target.value);
+//      console.log("blur");
+//      console.log(e.target.value);
 //     input.value = e.target.value.toUpperCase();
 // });
 
 // input.addEventListener("focus",function(){
-//     // console.log("focus");
+//      console.log("focus");
 // });
 
 // input.addEventListener("focusin",function(){
@@ -661,26 +660,26 @@
 //     console.log("focusout");
 // });
 
-// //27 oncopy, oncut, onpaste ClipboardEvent:
+// !27 oncopy, oncut, onpaste ClipboardEvent:
 // let input = document.querySelector("input");
 // let ptag  = document.querySelector("p");
 
 // input.addEventListener("copy",function(){
-//     // console.log("copy this text");
+//      console.log("copy this text");
 //     ptag.innerText = "your are copy this text"
 // })
 
 // input.addEventListener("cut",function(){
-//     // console.log("cut this text");
+//      console.log("cut this text");
 //     ptag.innerText = "your are cut this text"
 // })
 
 // input.addEventListener("paste",function(){
-//     // console.log("paste this text");
+//      console.log("paste this text");
 //     ptag.innerText = "your are paste this text"
 // })
 
-// //28 ondragstart, ondrag, ondragend, ondragenter, ondragleave, ondrover, ondrop, DragEventDragEvent:
+// !28 ondragstart, ondrag, ondragend, ondragenter, ondragleave, ondrover, ondrop, DragEventDragEvent:
 
 // const div = document.querySelector("div");
 // const para = document.querySelector("p");
