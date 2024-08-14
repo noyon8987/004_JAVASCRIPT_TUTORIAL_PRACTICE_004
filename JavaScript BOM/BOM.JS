@@ -1,35 +1,35 @@
-///////////////////////////////// Browser object model \\\\\\\\\\\\\\\\\\\\\\\\\\\\
+// ------------------------------Browser object model----------------------------------- \\
 
-// //01 Browser object model:
+// ?01 Browser object model:
 // let mydiv = document.querySelector(".mydiv");
 
-// //href
+// !href
 // let para1 = mydiv.children[0];
 // para1.textContent = location.href;
 
-// //protocol
+// !protocol
 // let para2 = mydiv.children[1];
 // para2.textContent = location.protocol
 
-// //hostname
+// !hostname
 // let para3 = mydiv.children[2];
 // para3.textContent = location.hostname;
 
-// //port
+// !port
 // let para4 = mydiv.children[3];
 // para4.textContent = location.port;
 
-// //pathname
+// !pathname
 // let para5 = mydiv.children[4];
 // para5.textContent= location.pathname;
 
-// // //assign
+// !assign
 // let visitsite = document.querySelector("#btn");
 // visitsite.addEventListener("click",function(){
 //     location.assign("https://www.noyonofficial.com");
 // });
 
-// //02 popup boxes - alert, confirm, prompt :
+// ?02 popup boxes - alert, confirm, prompt :
 
 // alert("Enter your name");
 
@@ -81,7 +81,7 @@
 // }
 // myFunction();
 
-// //03 Timing events - setTimeout, setInterval:
+// ?03 Timing events - setTimeout, setInterval:
 // let button = document.querySelector("button");
 // let para   = document.querySelector("p");
 
@@ -116,7 +116,7 @@
 //     }, 1000);
 // });
 
-//////////////////----- Create a Digital Clock in Javascript -----\\\\\\\\\\\\\\\\\
+// ------------------------- Create a Digital Clock in Javascript ---------------------- \\
 
 // let Button = document.querySelector("button");
 // let para = document.querySelector("p");
@@ -148,7 +148,7 @@
 
 //----------------------------Error Handle in javascript --------------------------
 
-// //01 try, catch, finally error handle:
+// ?01 try, catch, finally error handle:
 // try {
 //     alert("Hablu is a Programmer");
 //     alert(x);
@@ -160,10 +160,10 @@
 //     alert("Noyon is a New Programmer");
 // };
 
-// //02 throw error handle:
+// ?02 throw error handle:
 // document.querySelector("button").addEventListener("click",function(){
 //     let number = document.querySelector("input").value;
-//     // console.log(number);
+//      console.log(number);
 //     try{
 //         if(number < 4){
 //             throw "Number is to low"
