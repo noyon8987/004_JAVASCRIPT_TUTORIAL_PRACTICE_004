@@ -43,7 +43,7 @@
 
 /*----------------------------------------------------------------------------------------------------*/
 
-// !08 ParseFloat / ParseInt (string type ka number type a porinoto kora) Type Variable:
+// !08 ParseFloat / ParseInt (string type ka number type a porinoto korar) Type Variable:
 // let num1 = '50';
 // let num2 = '40';
 
@@ -60,7 +60,7 @@
 // const total = number1 + number2;
 // console.log("$" + total + " Dolar");
 
-// !09 (Number type ka string type a porinoto kora) Type Variable
+// !09 (Number type ka string type a porinoto korar) Type Variable
 // let str1 = 20;
 // let str2 = 24;
 
@@ -149,6 +149,7 @@
 
 // let some = Math.random()*10;
 // console.log(some);
+// console.log(Math.round(some));
 
 /*----------------------------------------------------------------------------------------------------*/
 
@@ -386,6 +387,7 @@
 
 /*----------------------------------------------------------------------------------------------------*/
 
+// ?Next Time Start: 06/10/2024
 // !28 For Loops:
 // let i = 0;
 // for(let i = 0; i<=11; i++){
@@ -425,7 +427,7 @@
 
 
 // let doctors = {
-//     Name : "Habibulla Kan",
+//     Name : "Habibul Basar",
 //     position_No : 1,
 //     successful : "98%"
 // }
@@ -554,7 +556,7 @@
 // let myfunction = myFun(4,5);
 // console.log(myfunction);
 
-// !IIFE (Immediately Invokeable Expressions Function) Function:
+// !IIEF (Immediately Invokeable Expressions Function) Function:
 
 // function display(){
 //     console.log('Shahadat Hosen Noyon')

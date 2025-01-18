@@ -194,6 +194,7 @@
 // console.log(NewMessage);
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// !Next Time Start 06/10/2024
 
 // ?10 Class Constructor:
 
@@ -838,7 +839,7 @@ finally{
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
-// ?27 foreach loop:
+// ?27 forEach loop:
 
 // let number = [10,20,30,40,50];
 // number.forEach(function(x){
@@ -854,7 +855,7 @@ finally{
 // });
 // console.log(number1);
 
-// ?28 foreach, map and filter array function:
+// ?28 forEach, map and filter array function:
 // let number = [2,3,4,5,6,7];
 // let squareNumber = [];
 // number.forEach(function(x){
