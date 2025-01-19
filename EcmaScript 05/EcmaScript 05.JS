@@ -205,7 +205,6 @@
 //         console.log('Not a Valid Number');
 // }
 
-
 // let letter = "i";
 
 // switch (letter) {
@@ -219,7 +218,6 @@
 //     default:
 //         console.log("Consonent");
 // }
-
 
 // let sum = 3;
 // switch (sum) {
@@ -235,7 +233,6 @@
 //     default:
 //         console.log("Not Valid Number");
 // }
-
 
 // let alfabat = "q";
 // switch (alfabat) {
@@ -263,7 +260,6 @@
 // console.log(myDate.getMinutes());
 // console.log(myDate.getHours());
 
-
 // let myDate = new Date();
 // console.log(myDate.toDateString());
 // console.log(myDate.toTimeString());
@@ -278,12 +274,9 @@
 // let MyName = ['Shahadat', 'Hosen', 'Noyon'];
 // console.log(MyName[2]);
 
-
 // let A = ['Noyon', 'korim', 'Tohin'];
 // A[0] = 'Rohim';
 // console.log(A);
-
-
 
 // let num = new Array();
 // for(let i = 0; i < 5; i++) {
@@ -297,7 +290,6 @@
 // }
 // console.log(sum);
 
-
 // let x = new Array();
 // for(let i = 0; i < 9; i++){
 //     x[i] = parseInt(prompt("Enter Some Number:"));
@@ -309,9 +301,6 @@
 //     y = y + x[i];
 // }
 // console.log(y);
-
-
-
 
 // let num1 = new Array()
 // for (let i = 0; i < 8; i++) {
@@ -371,13 +360,11 @@
 // });
 // console.log(number);
 
-
 // let bumber = [1, 4, 7, 9, 2, 5, 3, 6, 8];
 // bumber.sort(function (a, b) {
 //     return b - a;
 // });
 // console.log(bumber);
-
 
 // let someNumber = [1, 2, 8, 5, 7, 6, 3, 9, 4];
 // someNumber.sort(function(a, b){
@@ -394,19 +381,16 @@
 //     console.log(i);
 // }
 
-
 // let num = 0;
 // for (let i = 1; i <= 10; i = i + 1) {
 //     console.log(i);
 // }
-
 
 // let sum = 0;
 // for (let x = 1; x <= 10; x++) {
 //     sum = sum + x;
 // }
 // console.log(sum);
-
 
 // let num = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // for (i = 0; i < 5; i++) {
@@ -425,7 +409,6 @@
 //     console.log(person[x]);
 // }
 
-
 // let doctors = {
 //     Name : "Habibul Basar",
 //     position_No : 1,
@@ -436,23 +419,19 @@
 //     console.log(doctors[doc]);
 // }
 
-
 // !30 For of Loops:
 // for (const singal of "Noyon") {
 //     console.log(singal);
 // }
 
-
 // for(let i of "Jamal_Kan"){
 //     console.log(i);
 // }
-
 
 // let cars = ['BMW',"VOLVO","TOYOTA"];
 // for(let x of cars){
 //     console.log(x);
 // }
-
 
 // !31 While Loops:
 // let i = 1;
@@ -461,13 +440,11 @@
 //     i++;
 // }
 
-
 // let i = 1;
 // while (i <= 10) {
 //     console.log(i);
 //     i++;
 // }
-
 
 // let x = 0;
 // let y = 0;
@@ -476,8 +453,6 @@
 //     y = y + x;
 // }
 // console.log(y);
-
-
 
 // let num = 0;
 // let sum = 0;
@@ -490,16 +465,12 @@
 // }
 // console.log(sum);
 
-
-
 // !32 Do While Loops:
 // let i = 5;
 // do {
 //     console.log(i < 7)
 //     i++;
 // } while (i < 5);
-
-
 
 // let y = 5;
 // do{
@@ -668,7 +639,6 @@
 // let Noyon = highestScores(scores);
 // console.log(Noyon);
 
-
 // function noyon(){
 //     let highestNunber = number[0];
 //     for(let i = 0; i <= number.length; i++){
@@ -682,7 +652,6 @@
 // let hablu = noyon(number);
 // console.log(hablu);
 
-
 // function highestNunber (number){
 //     let max = number[0];
 //     for(let x = 1; x < number.length; x++){
@@ -692,11 +661,9 @@
 //     } return max;
 // }
 
-
 // let number = [10, 220, 60, 40, 50];
 // let maxNumber = highestNunber(number);
 // console.log(maxNumber);
-
 
 // function myfunction(){
 //     let maxNumber = Numbers[0];
@@ -709,7 +676,6 @@
 // }
 // let Numbers = [10,20,300,50,40,60,70];
 // console.log(myfunction(Numbers));
-
 
 // !40 Two Dimensional Array:
 // function highestScores() {
@@ -732,7 +698,6 @@
 // ]
 // let Name = highestScores(scores);
 // console.log(Name);
-
 
 // function x (){
 //     let y = objectNumber[0][0];
