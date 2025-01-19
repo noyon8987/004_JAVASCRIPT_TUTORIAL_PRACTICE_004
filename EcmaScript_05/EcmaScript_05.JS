@@ -278,6 +278,10 @@
 // A[0] = 'Rohim';
 // console.log(A);
 
+// let name = ["Hablu", "Jisan", "Saiful"];
+// name[1] = "Noyon";
+// console.log(name);
+
 // let num = new Array();
 // for(let i = 0; i < 5; i++) {
 //     num[i] = parseInt(prompt("Enter Your Number:"));
