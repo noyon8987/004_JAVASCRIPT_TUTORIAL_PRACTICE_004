@@ -5,7 +5,6 @@
 // };
 // console.log(obj.name);
 
-
 // const Objects = {
 //     firstName: "Shahadat",
 //     lastName: "Hosen",
@@ -16,7 +15,6 @@
 //     }
 // }
 // console.log(Objects.fullName());
-
 
 //Create an Array:
 
@@ -30,7 +28,6 @@
 // const myArray = Object.values(person);
 // console.log(myArray);
 
-
 // const person = new Object();
 
 // person.firstName = "Shahadat Hosen";
@@ -39,7 +36,6 @@
 // person.id = 504;
 
 // console.log(person);
-
 
 // const user = {
 //     firstName: "Shahadat",
@@ -55,3 +51,19 @@
 // user.age = 21;
 
 // console.log(user);
+
+// function Person(first, last, age, eye) {
+//   this.firstName = first;
+//   this.lastName = last;
+//   this.age = age;
+//   this.eyeColor = eye;
+// }
+
+// const user = new Person("Shahadat Hosen", "Noyon", 21, "blue");
+// delete user.age;
+
+// const hablu = new Person("Hablu", "Programmer", 22, "Black");
+// delete hablu.eyeColor;
+
+// console.log(user);
+// console.log(hablu);
