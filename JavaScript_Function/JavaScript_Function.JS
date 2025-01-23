@@ -37,3 +37,35 @@
 // };
 
 // console.log(user.fullName());
+
+// const user = {
+//   fullName: function () {
+//     return this.firstname + " " + this.lastName;
+//   },
+// };
+
+// const person1 = {
+//   firstname: "Jhon",
+//   lastName: "Doe",
+// };
+
+// const person2 = {
+//   firstname: "Alem",
+//   lastName: "Walker",
+// };
+
+// console.log(user.fullName.call(person1));
+// console.log(user.fullName.call(person2));
+
+const user = {
+    fullInformation : function (city, country) {
+        return "My name is " + this.firstName + " " + this.lastName + ", " + "and I Live in " + city + " of " + country;
+    }
+}
+
+const person = {
+    firstName: "Jhon",
+    lastName: "Doe"
+}
+
+console.log(user.fullInformation.call(person, "Florida", "United State."));
