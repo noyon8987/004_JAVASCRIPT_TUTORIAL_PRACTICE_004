@@ -56,3 +56,11 @@
 // console.log(myObj.cars[0].models);
 // console.log(myObj.cars[1].models);
 // console.log(myObj.cars[2].models);
+
+// const array = [3, 4, 2, 6, 1, 5];
+// const at = array.at(1);
+// console.log(at);
+
+// const number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// console.log(number.join(" * "));
+// console.log(number.join(" + "));
