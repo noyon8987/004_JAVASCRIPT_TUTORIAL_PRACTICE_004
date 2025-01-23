@@ -57,15 +57,61 @@
 // console.log(user.fullName.call(person1));
 // console.log(user.fullName.call(person2));
 
-const user = {
-    fullInformation : function (city, country) {
-        return "My name is " + this.firstName + " " + this.lastName + ", " + "and I Live in " + city + " of " + country;
-    }
-}
+// const user = {
+//   fullInformation: function (city, country) {
+//     return (
+//       "My name is " +
+//       this.firstName +
+//       " " +
+//       this.lastName +
+//       ", " +
+//       "and I Live in " +
+//       city +
+//       " of " +
+//       country
+//     );
+//   },
+// };
 
-const person = {
-    firstName: "Jhon",
-    lastName: "Doe"
-}
+// const person = {
+//   firstName: "Jhon",
+//   lastName: "Doe",
+// };
 
-console.log(user.fullInformation.call(person, "Florida", "United State."));
+// console.log(user.fullInformation.call(person, "Florida", "United State."));
+
+// const user = {
+//   fullName: function () {
+//     return this.firstName + " " + this.lastName;
+//   },
+// };
+
+// const person = {
+//   firstName: "Jhon",
+//   lastName: "Doe",
+// };
+
+// console.log(user.fullName.apply(person));
+
+// const user = {
+//   firstName: "Jhon",
+//   lastName: "Doe",
+//   fullName: function () {
+//     return this.firstName + " " + this.lastName;
+//   },
+// };
+
+// const person1 = {
+//   firstName: "Hablu",
+//   lastName: "Programmer",
+// };
+
+// const person2 = {
+//   firstName: "Noyon",
+//   lastName: "Dev",
+// };
+
+// const fullName = user.fullName.bind(person2);
+// const fullName = user.fullName.bind(person1);
+
+// console.log(fullName());
