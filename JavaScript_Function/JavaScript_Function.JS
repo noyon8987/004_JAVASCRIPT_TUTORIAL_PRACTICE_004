@@ -115,3 +115,15 @@
 // const fullName = user.fullName.bind(person1);
 
 // console.log(fullName());
+
+// let counter = 0;
+
+// function add() {
+//   return (counter += 1);
+// }
+
+// console.log(add());
+// console.log(add());
+// console.log(add());
+// console.log(add());
+// console.log(add());
