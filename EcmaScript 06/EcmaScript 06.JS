@@ -920,7 +920,7 @@ finally{
 // console.log(message.endsWith("Noyon"));
 // console.log(message.includes("Shahadat Hosen"));
 
-// ?31 async await function in javascript1:
+// ?31 async await function in javascript:
 // console.log("Welcome to New Programmer Noyon");
 // const taskOne = () => {
 //     return new Promise((resolve, reject) => {
