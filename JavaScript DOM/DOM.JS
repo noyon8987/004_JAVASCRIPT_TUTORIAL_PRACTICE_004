@@ -13,7 +13,7 @@
 // document.querySelector("h1").innerHTML = "My name is Abdullah";
 // document.querySelectorAll("h1")[0].innerHTML = "Baba tomar dorbara sob pagoler kala"
 
-//01 onclick event :
+//? 01 onclick event :
 // let button = document.querySelector("#btn");
 
 // function btn1(){
@@ -66,16 +66,16 @@
 
 // !04 Html add,remove in Javascript:
 // let heading3 = document.createElement("h1");
-// let text = document.createTextNode("This is Heading 2");
-// heading3.appendChild(text);
+// let text3 = document.createTextNode("This is Heading 3");
+// heading3.appendChild(text3);
 
 // let heading4 = document.createElement("h1");
-// let text1 = document.createTextNode("This is Heading 3");
-// heading4.appendChild(text1);
+// let text4 = document.createTextNode("This is Heading 4");
+// heading4.appendChild(text4);
 
 // let div = document.getElementById("div");
 // div.appendChild(heading3);
-// div.appendChild(heading4)
+// div.appendChild(heading4);
 
 // let heading2 = document.getElementsByTagName("h1")[1];
 // div.removeChild(heading2);
@@ -85,7 +85,7 @@
 // heading0.appendChild(text0);
 
 // let heading1 = document.getElementsByTagName("h1")[0];
-// div.insertBefore(heading0,heading1);
+// div.insertBefore(heading0, heading1);
 
 //----------------------------------------------------------------------------------------//
 
@@ -107,7 +107,7 @@
 // let student3 = document.querySelector("li");
 // let students = student3.parentElement;
 
-// !sideWards - nextElementSibling, PrecousElementSibling:
+// !sideWards - nextElementSibling, PreviousElementSibling:
 // let student4 = document.querySelector("li");
 // let student5 = student4.nextElementSibling;
 
