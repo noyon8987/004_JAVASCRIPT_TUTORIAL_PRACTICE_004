@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DOM-2</title>
-  </head>
-  <body>
-    <input type="number" id="number" />
-    <button type="button" onclick="myFucntion()">Submit</button>
-    <p id="demo"></p>
 
-    <script>
-      function myFucntion() {
-        let input = document.getElementById("number").value;
-        let text;
-        if (input === "" || input < 1 || input > 10) {
-          text = "Input is not valid.";
-        } else {
-          text = "Input is OK";
-        }
-        document.getElementById("demo").textContent = text;
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOM-2</title>
+</head>
+
+<body>
+  <input type="number" id="number" />
+  <button type="button" onclick="myFucntion()">Submit</button>
+  <p id="demo"></p>
+
+  <script>
+    function myFucntion() {
+      let input = document.getElementById("number").value;
+      let text;
+      if (input === "" || input < 1 || input > 10) {
+        text = "Input is not valid.";
+      } else {
+        text = "Input is OK";
       }
-    </script>
-  </body>
+      document.getElementById("demo").textContent = text;
+    }
+  </script>
+</body>
+
 </html>

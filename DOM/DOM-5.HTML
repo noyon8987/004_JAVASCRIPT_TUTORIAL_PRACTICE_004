@@ -1,77 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DOM-05</title>
-  </head>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, Helvetica, sans-serif;
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOM-05</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  html,
+  body {
+    width: 100%;
+    height: auto;
+    scroll-behavior: smooth;
+  }
+</style>
+
+<body>
+  <button id="mybtn">Try it!</button>
+  <button id="dlbtn">Delete it!</button>
+  <p id="demo"></p>
+
+  <button id="alart">Click Here</button><br>
+
+  <button id="myBtn" style="padding: 20px">
+    A Lot of Mouse Event Here..!
+  </button>
+  <p id="demo"></p>
+  <br />
+
+  <h1 id="demo1">Hello World</h1>
+  <p id="demo2"></p>
+  <h2 id="demo3"></h2>
+
+  <script>
+    document.getElementById("mybtn").addEventListener("click", getDate);
+    function getDate() {
+      document.getElementById("demo").textContent = Date();
     }
-    html,
-    body {
-      width: 100%;
-      height: auto;
-      scroll-behavior: smooth;
+
+    document.getElementById("dlbtn").addEventListener("click", dlDate);
+    function dlDate() {
+      document.getElementById("demo").textContent = "";
     }
-  </style>
-  <body>
-    <!-- <button id="mybtn">Try it!</button>
-    <button id="dlbtn">Delete it!</button>
-    <p id="demo"></p> -->
 
-    <!-- <button id="alart">Click Here</button> -->
+    document.getElementById("alart").addEventListener("click", function () {
+      alert("Hello World..! How are you..?");
+    });
 
-    <!-- <button id="myBtn" style="padding: 20px">
-      A Lot of Mouse Event Hete..!
-    </button>
-    <p id="demo"></p>
-    <br /> -->
+    let x = document.getElementById("myBtn");
+    x.addEventListener("mouseover", firstFunction);
+    x.addEventListener("mouseout", secontFunction);
+    x.addEventListener("click", thirdFunction);
 
-    <!-- <h1 id="demo1">Hello World</h1>
-    <p id="demo2"></p>
-    <h2 id="demo3"></h2> -->
+    function firstFunction() {
+      document.getElementById("demo").innerHTML += "MouseOver!<br>"
+    }
 
-    <script>
-      //   document.getElementById("mybtn").addEventListener("click", getDate);
-      //   function getDate() {
-      //     document.getElementById("demo").textContent = Date();
-      //   }
+    function secontFunction() {
+      document.getElementById("demo").innerHTML += "MouseOut!<br>"
+    }
 
-      //   document.getElementById("dlbtn").addEventListener("click", dlDate);
-      //   function dlDate() {
-      //     document.getElementById("demo").textContent = "";
-      //   }
+    function thirdFunction() {
+      document.getElementById("demo").innerHTML += "Clicked!<br>"
+    }
 
-      //   document.getElementById("alart").addEventListener("click", function () {
-      //     alert("Hello World..! How are you..?");
-      //   });
+    document.getElementById("demo2").innerHTML =
+      document.getElementById("demo1").innerHTML;
+    document.getElementById("demo3").innerHTML =
+      document.getElementById("demo1").innerHTML;
+  </script>
+</body>
 
-      //   let x = document.getElementById("myBtn");
-      //   x.addEventListener("mouseover", firstFunction);
-      //   x.addEventListener("mouseout", secontFunction);
-      //   x.addEventListener("click", thirdFunction);
-
-      //   function firstFunction () {
-      //     document.getElementById("demo").innerHTML += "MouseOver!<br>"
-      //   }
-
-      //   function secontFunction () {
-      //     document.getElementById("demo").innerHTML += "MouseOut!<br>"
-      //   }
-
-      //   function thirdFunction () {
-      //     document.getElementById("demo").innerHTML += "Clicked!<br>"
-      //   }
-
-      //   document.getElementById("demo2").innerHTML =
-      //     document.getElementById("demo1").innerHTML;
-      //   document.getElementById("demo3").innerHTML =
-      //     document.getElementById("demo1").innerHTML;
-    </script>
-  </body>
 </html>
