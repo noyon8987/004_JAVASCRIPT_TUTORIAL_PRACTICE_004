@@ -19,12 +19,10 @@
 // };
 // fn('Hablu','Noyon','Korim','kabab','sohan');
 
-
 // function myFun(a, b, ...collectName){
 //     console.log(a, b, collectName);
 // }
 // myFun("Noyon", "Rohim", "Hosen", "Korim", "Habib", "Helal", "Jisan");
-
 
 // function Fun(a, b, ...collectName){
 //     console.log(a, b, collectName);
@@ -56,7 +54,6 @@
 // };
 // console.log(say('Hi','Shahadat Hosen Noyon'));
 
-
 // function myfunction(Say, Call){
 //     return {
 //         Say, Call
@@ -64,7 +61,6 @@
 // }
 // let information = myfunction("Hi", "Noyon Ali");
 // console.log(information);
-
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
@@ -86,7 +82,6 @@
 //     console.log(obj);
 // };
 
-
 // let info = {
 //     Name : "Shahadat Hosen Noyon",
 //     Profile : "Student",
@@ -103,7 +98,6 @@
 
 // const str = `'Hablu','Eshan','Noyon'`;
 // console.log(str);
-
 
 // const name = `Shahadat Hosen Noyon`;
 // const age  =  20;
@@ -148,11 +142,9 @@
 // console.log(Name);
 // console.log(Id);
 
-
 // const x = {name:"Noyon", age:21};
 // const myName = ({name,age}) => {console.log(`${name}, ${age}`);};
 // myName(x)
-
 
 // const myName = {name:"Hablu", roll:101};
 // function myFun({name, roll}){
@@ -160,13 +152,11 @@
 // };
 // myFun(myName);
 
-
 // let information = {Name : "Noyon", Id : 101};
 // function myfunction({Name, Id}){
 //     console.log(`${Name}, ${Id}`);
 // }
 // myfunction(information);
-
 
 // const obj = {
 //         name : 'Noyon',
@@ -207,7 +197,6 @@
 // const BookDetails = new Book ('Hablu Programmer', '500 tk');
 // console.log(BookDetails);
 
-
 // class Book{
 //     constructor(bookName, Price){
 //         this.bookName = bookName;
@@ -216,7 +205,6 @@
 // }
 // let Books = new Book("Rich Dad Poor Dad", 1099);
 // console.log(Books);
-
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
@@ -231,7 +219,6 @@
 // };
 // let PersonDetails = new Person ('Noyon', 20, 'Student');
 // console.log(PersonDetails);
-
 
 // let person = class{
 //     constructor(Name, Id, Roll){
@@ -254,14 +241,12 @@
 // }
 // Book.fun();
 
-
 // class Name {
 //     static myfunction () {
 //         console.log("My name is Shahadat Hosen Noyon");
 //     }
 // }
 // Name.myfunction();
-
 
 // class number {
 //     static phoneNumber (){
@@ -291,8 +276,6 @@
 // let MyAssets = new Ami();
 // MyAssets.MyAssets();
 
-
-
 // class gotFather {
 //     Assets1 (){
 //         console.log("You are so nice but.....");
@@ -310,7 +293,6 @@
 // }
 // let Asset = new Assets();
 // Asset.myAssets();
-
 
 // class friendName {
 //     friend1(){
@@ -339,8 +321,6 @@
 // let Friends = new Friend();
 // Friends.myFriends();
 
-
-
 // class bikeShop {
 //     suzuki(){
 //         console.log("Suzuki is one of the best Bike");
@@ -358,7 +338,6 @@
 // }
 // let Bike = new bike();
 // Bike.myBike();
-
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
@@ -486,12 +465,9 @@
 //     console.log(x);
 // }
 
-
 // let sum = ["Noyon", "Rifat", "Munna", "Noyom"];
 // sum.forEach(x);
 // function x (Name){console.log(Name);}
-
-
 
 // let a = [1,3,5,7,9];
 // a.forEach((x)=>console.log(x));
@@ -548,286 +524,24 @@
 // }
 // console.log(sum);
 
-// ?22 Asynchronous Vs Synchronous:
-
-// let x = () => {
-//     console.log("x");
-// }
-
-// let dataLoading = () => {
-//     console.log("y");
-// }
-
-// let y = () => {
-//     setTimeout(dataLoading, 2000)
-// }
-
-// let z = () => {
-//     console.log("z");
-// }
-
-// x();
-// y();
-// z();
-
-
-// const taskOne = () => {
-//     console.log("Task-one");
-// }
-
-// const dataLoading = () => {
-//     console.log("Task-Two");
-// }
-
-// const taskTwo = () => {
-//     setTimeout(dataLoading, 3000)
-// }
-// const taskThree = () => {
-//     console.log("Task-Three");
-// }
-// const taskFour = () => {
-//     console.log("Task-Four");
-// }
-// const taskFive = () => {
-//     console.log("Task-Five");
-// }
-
-// taskOne();
-// taskTwo();
-// taskThree();
-// taskFour();
-// taskFive();
-
-
-// const rollOne = () => {
-//     console.log("Roll-one");
-// }
-
-// const rollTwo = () => {
-//     console.log("Roll-Two");
-// }
-
-// const rollThree = () => {
-//     console.log("Roll-Three");
-// }
-
-// const dataLoading = () => {
-//     console.log("Roll-Four");
-// }
-
-// const rollFour = () => {
-//     setTimeout(dataLoading, 2000);
-// }
-
-// const rollFive = () => {
-//     console.log("Roll-Five");
-// }
-
-// rollOne();
-// rollTwo();
-// rollThree();
-// rollFour();
-// rollFive();
-
-
-// const dataLoading = () => {
-//     console.log("Noyon is comeing 3 second leter.");
-// }
-// const noyon = () => {
-//     setTimeout(dataLoading, 3000);
-// }
-// const Halel = () => {
-//     console.log("Helal is comeing on the time.");
-// }
-// const Hablu = () => {
-//     console.log("Hablu is comeing on the time.");
-// }
-
-// noyon();
-// Halel();
-// Hablu();
-
-// ?23 CallBack and Higher Order Function:
-
-// const taskOne = (CallBack) => {
-//     console.log("Task-one");
-//     CallBack();
-// }
-// const taskTwo = (CallBack) => {
-//     setTimeout(() => {
-//         console.log("Task-Two");
-//         CallBack();
-//     }, 3000);
-// }
-// const taskThree = (CallBack) => {
-//     console.log("Task-Three");
-//     CallBack();
-// }
-// const taskFour = (CallBack) => {
-//     console.log("Task-Four");
-//     CallBack();
-// }
-// const taskFive = () => {
-//     console.log("Task-Five");
-// }
-
-// taskOne(function f1() {
-//     taskTwo(function f2() {
-//         taskThree(function f3 () {
-//             taskFour(function f4 () {
-//                 taskFive()
-//             })
-//         });
-//     });
-// });
-
-
-
-
-// const T1 = (CallBack) => {
-//     console.log("Number One");
-//     CallBack();
-// }
-
-// const T2 = (CallBack) => {
-//     setTimeout(() => {
-//         console.log("Number Two");
-//         CallBack()
-//     }, 2000);
-// }
-// const T3 = (CallBack) => {
-//     console.log("Number Three");
-//     CallBack();
-// }
-
-// const T4 = () => {
-//     console.log("Number Four");
-// }
-
-// T1(()=>{
-//     T2(()=>{
-//         T3(()=>{
-//             T4()
-//         })
-//     })
-// });
-
-// or //
-
-// T1(()=>{T2(()=>{T3(()=>{T4()})})});
-
-
-
-// let x = (someting) => {
-//     console.log(someting);
-// }
-
-// let HigherOrderFun = (Name, Class, CallBack) => {
-//     const Details = `My name is ${Name} and I read in class ${Class}.`
-//     CallBack(Details)
-// }
-// HigherOrderFun('Noyon','13',x);
-
-// ?24 Try, Catch, Throw, Finally Keywords:
-
-/*try{
-    console.log('Hellow');
-    //console.log(Hi);
-    let age = 16;
-    if (age < 18){
-        throw 'How are Baby'
-    }
-    else if (age > 18){
-        throw 'How are you young man'
-    }
-}
-catch(NoyonError){
-    console.log(NoyonError)
-}
-finally{
-    console.log('How are you boy');
-}*/
-
-// ?25 Promise:
-
-// let p = new Promise((reslove, reject) => {
-//     let a = 1 + 2;
-//     if (a == 3) {
-//         reslove('success')
-//     } else {
-//         reject('Failed')
-//     }
-// })
-// p.then((message) => {
-//     console.log('i am a ' + message);
-// }).catch((message) => {
-//     console.log('i am a ' + message);
-// })
-
-
-// const promise = new Promise((resolve, reject) => {
-//     let promise = true;
-//     if(promise){
-//         resolve("that is true")
-//     }
-//     else{
-//         reject("that is false")
-//     }
-// })
-
-// promise.then((res)=>{console.log(res)})
-// .catch((err)=>{console.log(err)})
-
-
-
-// const Promise1 = new Promise((resolve, reject)=>{
-//     let x = 5;
-//     let y = 5;
-//     let z = 5*5;
-//     if(z == 25){
-//         resolve("Right")
-//     }else{
-//         reject("Rong")
-//     }
-// })
-// Promise1.then((res)=>{console.log(res)})
-// .catch((err)=>{console.log(err)})
-
-
-
-// const promise = new Promise ((reslove,reject) => {
-//     const number = 1 - 1;
-//     if ( number === 0 ){
-//         reslove ("Noyon is a good Programmer")
-//     }
-//     else{
-//         reject ("Noyon is Bad Programmer")
-//     }
-// });
-// promise.then ((message) => {console.log(message)})
-// .catch((err) => {console.log(err)})
-
-// Promise.all([promise]).then((res) => {console.log(res)})
-// .catch((err) => {console.log(err)})
-
 //-------------------------------------------------------------------------------------------------//
 
-// ?26 Same number check korar variable:
+// ?22 Same number check korar variable:
 // a = 4;
 // b = '4';
 // console.log(a==b);
 
-// ?26 Same string check korar variable:
+// ?23 Same string check korar variable:
 // a = 4;
 // b = '4';
 // console.log(a===b);
 
-// !26 Not Equals to variable:
+// !24 Not Equals to variable:
 // a = 4;
 // b = 7;
 // console.log(a!=b);
 
-// !26 Logical end variable:
+// !25 Logical end variable:
 // a = 4;
 // b = 5;
 // console.log(a!=b && b!=a);
@@ -882,7 +596,6 @@ finally{
 // const findNumber = number.find(x => x%2 === 0);
 // console.log(findNumber);
 
-
 // let number = [11,55,66,45,32,56,74];
 // let findNumber = number.find(x => x / 2 === 28);
 // console.log(findNumber);
@@ -890,8 +603,6 @@ finally{
 // let num = [1,8,6,4,7,6,4,2,5,8];
 // let sum = num.find(x => x * 2 === 14);
 // console.log(sum);
-
-
 
 // let number = [5,65,85,48,6,54];
 // const myNumber = (x) => {
@@ -920,7 +631,263 @@ finally{
 // console.log(message.endsWith("Noyon"));
 // console.log(message.includes("Shahadat Hosen"));
 
-// ?31 async await function in javascript:
+//=============================================================================================================
+//
+
+//! 31 Asynchronous Vs Synchronous:
+
+// let x = () => {
+//   console.log("x");
+// };
+// x();
+
+// let dataLoading = () => {
+//   console.log("y");
+// };
+
+// let y = () => {
+//   setTimeout(dataLoading, 2000);
+// };
+// y();
+
+// let z = () => {
+//   console.log("z");
+// };
+// z();
+
+
+// const taskOne = () => {
+//     console.log("Task-one");
+// }
+// taskOne();
+
+// const dataLoading = () => {
+//     console.log("Task-Two");
+// }
+
+// const taskTwo = () => {
+//     setTimeout(dataLoading, 3000)
+// }
+// taskTwo();
+
+// const taskThree = () => {
+//     console.log("Task-Three");
+// }
+// taskThree();
+
+// const taskFour = () => {
+//     console.log("Task-Four");
+// }
+// taskFour();
+
+// const taskFive = () => {
+//     console.log("Task-Five");
+// }
+// taskFive();
+
+
+// const rollOne = () => {
+//     console.log("Roll-one");
+// }
+// rollOne();
+
+// const rollTwo = () => {
+//     console.log("Roll-Two");
+// }
+// rollTwo();
+
+// const rollThree = () => {
+//     console.log("Roll-Three");
+// }
+// rollThree();
+
+// const dataLoading = () => {
+//     console.log("Roll-Four");
+// }
+
+// const rollFour = () => {
+//     setTimeout(dataLoading, 2000);
+// }
+// rollFour();
+
+// const rollFive = () => {
+//     console.log("Roll-Five");
+// }
+// rollFive();
+
+
+// const dataLoading = () => {
+//     console.log("Noyon is comeing 3 second leter.");
+// }
+// const noyon = () => {
+//     setTimeout(dataLoading, 3000);
+// }
+// noyon();
+
+// const Halel = () => {
+//     console.log("Helal is comeing on the time.");
+// }
+// Halel();
+
+// const Hablu = () => {
+//     console.log("Hablu is comeing on the time.");
+// }
+// Hablu();
+
+//! 32 CallBack and Higher Order Function:
+
+// const taskOne = (CallBack) => {
+//     console.log("Task-one");
+//     CallBack();
+// }
+// const taskTwo = (CallBack) => {
+//     setTimeout(() => {
+//         console.log("Task-Two");
+//         CallBack();
+//     }, 3000);
+// }
+// const taskThree = (CallBack) => {
+//     console.log("Task-Three");
+//     CallBack();
+// }
+// const taskFour = (CallBack) => {
+//     console.log("Task-Four");
+//     CallBack();
+// }
+// const taskFive = () => {
+//     console.log("Task-Five");
+// }
+
+// taskOne(function f1() {
+//     taskTwo(function f2() {
+//         taskThree(function f3 () {
+//             taskFour(function f4 () {
+//                 taskFive()
+//             })
+//         });
+//     });
+// });
+
+// const T1 = (CallBack) => {
+//     console.log("Number One");
+//     CallBack();
+// }
+
+// const T2 = (CallBack) => {
+//     setTimeout(() => {
+//         console.log("Number Two");
+//         CallBack()
+//     }, 2000);
+// }
+// const T3 = (CallBack) => {
+//     console.log("Number Three");
+//     CallBack();
+// }
+
+// const T4 = () => {
+//     console.log("Number Four");
+// }
+
+// T1(()=>{
+//     T2(()=>{
+//         T3(()=>{
+//             T4()
+//         })
+//     })
+// });
+
+// or //
+
+// T1(()=>{T2(()=>{T3(()=>{T4()})})});
+
+// let x = (someting) => {
+//     console.log(someting);
+// }
+
+// let HigherOrderFun = (Name, Class, CallBack) => {
+//     const Details = `My name is ${Name} and I read in class ${Class}.`
+//     CallBack(Details)
+// }
+// HigherOrderFun('Noyon','13',x);
+
+//! 33 Try, Catch, Throw, Finally Keywords:
+
+/*try{
+    console.log('Hellow');
+    //console.log(Hi);
+    let age = 16;
+    if (age < 18){
+        throw 'How are Baby'
+    }
+    else if (age > 18){
+        throw 'How are you young man'
+    }
+}
+catch(NoyonError){
+    console.log(NoyonError)
+}
+finally{
+    console.log('How are you boy');
+}*/
+
+//! 34 Promise:
+
+// let p = new Promise((reslove, reject) => {
+//     let a = 1 + 2;
+//     if (a == 3) {
+//         reslove('success')
+//     } else {
+//         reject('Failed')
+//     }
+// })
+// p.then((message) => {
+//     console.log('i am a ' + message);
+// }).catch((message) => {
+//     console.log('i am a ' + message);
+// })
+
+// const promise = new Promise((resolve, reject) => {
+//     let promise = true;
+//     if(promise){
+//         resolve("that is true")
+//     }
+//     else{
+//         reject("that is false")
+//     }
+// })
+
+// promise.then((res)=>{console.log(res)})
+// .catch((err)=>{console.log(err)})
+
+// const Promise1 = new Promise((resolve, reject)=>{
+//     let x = 5;
+//     let y = 5;
+//     let z = 5*5;
+//     if(z == 25){
+//         resolve("Right")
+//     }else{
+//         reject("Rong")
+//     }
+// })
+// Promise1.then((res)=>{console.log(res)})
+// .catch((err)=>{console.log(err)})
+
+// const promise = new Promise ((reslove,reject) => {
+//     const number = 1 - 1;
+//     if ( number === 0 ){
+//         reslove ("Noyon is a good Programmer")
+//     }
+//     else{
+//         reject ("Noyon is Bad Programmer")
+//     }
+// });
+// promise.then ((message) => {console.log(message)})
+// .catch((err) => {console.log(err)})
+
+// Promise.all([promise]).then((res) => {console.log(res)})
+// .catch((err) => {console.log(err)})
+
+//! 35 async await function in javascript:
 // console.log("Welcome to New Programmer Noyon");
 // const taskOne = () => {
 //     return new Promise((resolve, reject) => {
@@ -967,7 +934,6 @@ finally{
 //         }, 2000);
 //     })
 // }
-
 
 // const taskThree = () => {
 //     return new Promise((reslove, reject) => {

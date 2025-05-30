@@ -1,4 +1,4 @@
-// 01 calling api from javascript | XMLHttpRequest:
+//! 01 calling api from javascript | XMLHttpRequest:
 
 //event - onload(), onerror():
 
@@ -62,7 +62,7 @@
 // }
 // deletData();
 
-// //02 calling api from javascript | fetch api:
+//! 02 calling api from javascript | fetch api:
 // fetch("https://jsonplaceholder.typicode.com/posts",{
 //     method : "POST",
 //     headers: {
@@ -112,7 +112,7 @@
 // .then((res)=> console.log(res))
 // .catch((err) => console.log(err))
 
-// //03 async await api calling function:
+//! 03 async await api calling function:
 // const makeRequest = async (url,config) => {
 //     const res = await fetch(url,config);
 //     if(!res.ok){
@@ -182,7 +182,7 @@
 // }
 // deleteData();
 
-//04 calling api from javascript | axios api:
+//! 04 calling api from javascript | axios api:
 // axios
 //     .get('https://jsonplaceholder.typicode.com/posts')
 //     .then((res) => console.log(res.data))
@@ -230,7 +230,7 @@
 //     .then((res) => console.log(res.data))
 //     .catch((err) => console.log(err));
 
-// //05 async await axios api:
+//! 05 async await axios api:
 // const makeRequest = async (config) => {
 //     return await axios(config)
 // }
