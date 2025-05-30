@@ -1,7 +1,7 @@
 // function myFun () {
 //     console.log("Hello World");
 // }
-// setTimeout(myFun, 5000);
+// setTimeout(myFun, 3000);
 
 // let x = 3;
 // let y = 5;
